@@ -1,4 +1,4 @@
-var totalBus = 10;
+3var totalBus = 10;
 var busOperation = 7;
 var numberBus = 1;
 var lemburBus = 8;
