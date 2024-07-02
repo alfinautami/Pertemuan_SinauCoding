@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    position: relative;
+    text-align: center; /* Pusatkan teks di dalam header */
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+
+
+
+.exit-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#main-content {
+    margin: 20px 0;
+    text-align: left; /* Kembali ke rata kiri untuk konten utama */
+}
+
+.content {
+    position: relative;
+    padding: 15%;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.full-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info h3 {
+    margin-top: 0;
+}
+
+.info p {
+    margin-bottom: 0;
+    color: #888;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #25D366;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #128C7E;
+}
+
+.testimonials {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 0;
+    justify-content: center; /* Pusatkan container testimoni */
+}
+
+.testimonial {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Rata kiri teks dalam testimonial */
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+.testimonial strong {
+    font-weight: bold;
+}
+
+.items-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
